@@ -1,0 +1,20 @@
+{
+    "output_dir": "synth-builder",
+    "pattern": ["*.bmp", "*.png"],
+    "save_on_disk": true,
+    "as_npz": false,
+    "as_png": true,
+    "num_training": 8000,
+    "num_test": 1000,
+    "num_validation": 1000,
+    "builder_type": "colored_shapes",
+    "output_size": [256, 256, 3],
+    "use_square": true,
+    "use_triangle": true,
+    "use_circle": true,
+    "use_pentagon": true,
+    "do_rotation": true,
+    "do_scaling": true,
+    "do_translation": true,
+    "do_flip": true
+}
